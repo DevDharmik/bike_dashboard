@@ -9,7 +9,7 @@ st.set_page_config(page_title="Bike Rental Dashboard", layout="wide")
 st.title("🚴‍♂️ Washington D.C. Bike Rental Dashboard")
 st.write("Interactive dashboard summarizing key trends in the dataset.")
 
-df = pd.read_csv("D:\bike_dashboard\data\train.csv")
+df = pd.read_csv("data/train.csv")
 
 # --- Sidebar Filters ---
 st.sidebar.header("Filters")
