@@ -14,7 +14,7 @@ import os
 
 file_path = os.path.join("data", "train.csv")
 
-df = pd.read_csv(file_path)
+df = pd.read_csv("D:\bike_dashboard\data\train.csv")
 
 # --- Sidebar Filters ---
 st.sidebar.header("Filters")
